@@ -2,7 +2,7 @@ const { faker } = require('@faker-js/faker');
 const { evaluate } = require('mathjs');
 const moment = require('moment');
 const { Weather } = require('./Weather');
-const { Wisdom } = require('./wisdom');
+const { Wisdom } = require('./Wisdom');
 
 function getRandomInRage(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
